@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> HTML Module 2 Solution </title>
 <style>
-  
+* {box-sizing: border-box;
+  }
 h1 {
   text-align:	center;
   }
@@ -13,8 +14,7 @@ h1 {
 #d1 {
   background-color: #AAAAAA;
   height: 180px;
-  box-sizing: border-box;
-  padding: 5px;
+  margin: 10px;
 }
 
 p  {
@@ -44,7 +44,6 @@ p  {
     width: 30%;
     border: 1px solid black;
     float: left;
-    margin-bottom: 20px;
    }
   }
  
@@ -53,14 +52,12 @@ p  {
     width: 47%;
     border: 1px solid black;
     float: left;
-    margin-bottom: 20px;
    }
     .col-md-12 {
     width: 100%;
     border: 1px solid black;
     float: left;
-    margin-bottom: 20px;
-   }
+      }
   }
   
  @media (max-width: 767px) {
@@ -68,7 +65,6 @@ p  {
     width: 100%;
     border: 1px solid black;
     float: left;
-    margin-bottom: 20px;
     }   
   }
   
@@ -78,23 +74,29 @@ p  {
   
 <h1 >Our Menu</h1>
 <div class="row">
-  <div id="d1" class="col-lg-4 col-md-6 col-sm-12">
-    <p id="p1"  style="background-color: Pink;">Chicken </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit est, scelerisque ut est et, tempor tempor ante. 
-    Quisque lobortis massa diam, eu faucibus dolor consectetur quis. Sed id aliquet turpis. 
-    Quisque laoreet nec libero vel rutrum. Etiam nec luctus eros. Maecenas vel ullamcorper libero, in varius dui. </p>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div id="d1">
+      <p id="p1"  style="background-color: Pink;">Chicken </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit est, scelerisque ut est et, tempor tempor ante. 
+      Quisque lobortis massa diam, eu faucibus dolor consectetur quis. Sed id aliquet turpis. 
+      Quisque laoreet nec libero vel rutrum. Etiam nec luctus eros. Maecenas vel ullamcorper libero, in varius dui. </p>
+    </div>
   </div>
-  <div id="d1" class="col-lg-4 col-md-6 col-sm-12">
-    <p id="p1">Beef </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit est, scelerisque ut est et, tempor tempor ante. 
-    Quisque lobortis massa diam, eu faucibus dolor consectetur quis. Sed id aliquet turpis. 
-    Quisque laoreet nec libero vel rutrum. Etiam nec luctus eros. Maecenas vel ullamcorper libero, in varius dui. </p>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div id="d1">
+      <p id="p1">Beef </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit est, scelerisque ut est et, tempor tempor ante. 
+      Quisque lobortis massa diam, eu faucibus dolor consectetur quis. Sed id aliquet turpis. 
+      Quisque laoreet nec libero vel rutrum. Etiam nec luctus eros. Maecenas vel ullamcorper libero, in varius dui. </p>
+    </div>
   </div>
-  <div id="d1" class="col-lg-4 col-md-12 col-sm-12" >
-    <p id="p1" style="background-color: Yellow;">Sushi</p> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit est, scelerisque ut est et, tempor tempor ante. 
-    Quisque lobortis massa diam, eu faucibus dolor consectetur quis. Sed id aliquet turpis. 
-    Quisque laoreet nec libero vel rutrum. Etiam nec luctus eros. Maecenas vel ullamcorper libero, in varius dui. </p>
-  </div>
+  <div class="col-lg-4 col-md-12 col-sm-12">
+    <div id="d1">
+      <p id="p1" style="background-color: Yellow;">Sushi</p> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elit est, scelerisque ut est et, tempor tempor ante. 
+      Quisque lobortis massa diam, eu faucibus dolor consectetur quis. Sed id aliquet turpis. 
+      Quisque laoreet nec libero vel rutrum. Etiam nec luctus eros. Maecenas vel ullamcorper libero, in varius dui. </p>
+    </div>
   </div>  
+  </div>
   </body>
