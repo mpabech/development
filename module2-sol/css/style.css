@@ -7,17 +7,14 @@ h1 {
   
 #d1 {
   background-color: #AAAAAA;
-  height: 180px;
+  height: 210px;
   margin: 10px;
   float: left;
   border: 1px solid black;
+  padding-top: 15px
+  font-family: Helvetica;
 }
 
-p  {
-  padding: 15px;
-  font-family: Helvetica;
-  }
-  
 #p1 {
   background-color: Pink;
   width: 90px;
