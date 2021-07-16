@@ -58,7 +58,7 @@ body {
 /* HOME PAGE */
 h2 {
   text-align: center;
-  margin: auto;
+  margin: 15px auto 30px; 
 }
 
 #menu-tile, #specials-tile, #map-tile {
