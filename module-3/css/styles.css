@@ -65,20 +65,20 @@ h2 {
 } 
 
 #content {
-  text-align: justify;
+  text-align: center;
   background: #fff;
   width 100%;
   padding-top: 15px;
   margin: 25px auto 10px;
-  font-weight: 100;
+  font-weight: 600;
 }
 
-#content spam {
-  text-align: center;
+#content p {
+  text-align: justify;
   margin-top: 10px;
   margin-bottom: 25px;
   padding: 20px;
-  font-weight: 600;
+  font-weight: 100;
 
 }
 
