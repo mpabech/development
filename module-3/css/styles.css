@@ -64,7 +64,7 @@ h2 {
   margin: 15px;
 } 
 
- .content div{
+ #items section {
   text-align: center;
   background: #fff;
   width 100%;
@@ -73,7 +73,7 @@ h2 {
   font-weight: 600
 }
 
-.content p {
+#items p {
   text-align: justify;
   margin-top: 10px;
   margin-bottom: 25px;
