@@ -71,7 +71,7 @@ h2 {
 } 
 
 #d1 {
-  background-color: #AAAAAA;
+  background-color: #fff;
   height: auto;
   margin: 10px;
   float: left;
@@ -80,41 +80,17 @@ h2 {
 }
 
 #p1 {
-  background-color: Pink;
   width: 90px;
   height: 20px;
-  border: 1px solid black;
-  float: right;
-  margin-right: -26px;
-  margin-top: -51px;
+  float: center;
+  margin-right: auto;
+  margin-top: auto;
   text-align:	center;
   padding: 0px;
+  font-weight: 600;
+  font-size: 1.2em;  
   }  
   
-#p2 {
-  background-color: #FF0000;
-  width: 90px;
-  height: 20px;
-  border: 1px solid black;
-  float: right;
-  margin-right: -26px;
-  margin-top: -51px;
-  text-align:	center;
-  padding: 0px;
-  } 
-  
-#p3 {
-  background-color: Yellow;
-  width: 90px;
-  height: 20px;
-  border: 1px solid black;
-  float: right;
-  margin-right: -26px;
-  margin-top: -51px;
-  text-align:	center;
-  padding: 0px;
-  } 
-
 .row {
   margin: 5px;
   width: 100%;
