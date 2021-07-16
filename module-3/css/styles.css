@@ -17,7 +17,8 @@ body {
 }
 
 .dropdown-divider div{
-  color:#fff;
+  background-color:#fff;
+  height: 0.2px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -69,23 +70,55 @@ h2 {
   margin: 15px;
 } 
 
-#content {
-  text-align: center;
-  background: #fff;
-  width 100%;
-  padding-top: 15px;
-  margin: 25px auto 10px;
-  font-weight: 600;
+#d1 {
+  background-color: #AAAAAA;
+  height: auto;
+  margin: 10px;
+  float: left;
+  border: 1px solid black;
+  padding: 50px 25px 40px 25px;
 }
 
-#content p {
-  text-align: justify;
-  margin-top: 10px;
-  margin-bottom: 25px;
-  padding: 20px;
-  font-weight: 100;
+#p1 {
+  background-color: Pink;
+  width: 90px;
+  height: 20px;
+  border: 1px solid black;
+  float: right;
+  margin-right: -26px;
+  margin-top: -51px;
+  text-align:	center;
+  padding: 0px;
+  }  
+  
+#p2 {
+  background-color: #FF0000;
+  width: 90px;
+  height: 20px;
+  border: 1px solid black;
+  float: right;
+  margin-right: -26px;
+  margin-top: -51px;
+  text-align:	center;
+  padding: 0px;
+  } 
+  
+#p3 {
+  background-color: Yellow;
+  width: 90px;
+  height: 20px;
+  border: 1px solid black;
+  float: right;
+  margin-right: -26px;
+  margin-top: -51px;
+  text-align:	center;
+  padding: 0px;
+  } 
 
-}
+.row {
+  width: 100%;
+  padding: 5px;
+  }
 
 /* END HOME PAGE */
 
