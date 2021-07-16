@@ -64,7 +64,7 @@ h2 {
   margin: 15px;
 } 
 
- #main-content div{
+ .content div{
   text-align: center;
   background: #fff;
   width 100%;
@@ -73,7 +73,7 @@ h2 {
   font-weight: 600
 }
 
-.#main-content p {
+.content p {
   text-align: justify;
   margin-top: 10px;
   margin-bottom: 25px;
