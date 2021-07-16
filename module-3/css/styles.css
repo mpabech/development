@@ -15,6 +15,11 @@ body {
 .navbar-brand {
   padding-top: 10px;
 }
+
+.dropdown-divider div{
+  color:#fff;
+}
+
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #ffffff;
